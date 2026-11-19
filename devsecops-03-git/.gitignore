@@ -1,0 +1,23 @@
+# Never commit secrets — rotate immediately if one is ever pushed
+.env
+.env.*
+*.pem
+*.key
+*_rsa
+*_ed25519
+credentials
+secrets.*
+*.secret
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+__pycache__/
+*.log

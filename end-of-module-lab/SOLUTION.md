@@ -101,7 +101,9 @@ gitleaks detect           # -> no leaks found
 
 The cleaned feature branch is merged into `main` through a **pull request**, satisfying the Main ruleset (PR required, signed commits, no force-push). `main` only ever receives the reviewed, secret-free version.
 
-<!-- Add your PR-merge screenshot here, e.g.: ![PR merged](screenshots/11-pr-merge.png) -->
+![Pull request merged into main](screenshots/11-pr-merge.png)
+
+Both commits show **Verified** (signed), the PR merged cleanly into `main`, and the feature branch was auto-deleted on merge — the full protected-branch workflow, end to end.
 
 ---
 

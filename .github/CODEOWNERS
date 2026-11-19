@@ -2,6 +2,7 @@
 # On a team, security-sensitive paths would require the security team.
 # Solo, I own everything — but the file demonstrates the control.
 
+# Path            user/team
 *                 @dabanks213-max
 
 # Example of path-scoped review on a real team:
